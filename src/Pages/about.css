@@ -1,0 +1,13 @@
+.about {
+  margin: 30vh 20vw 10vh 20vw;
+  color: rgb(112, 112, 98);
+}
+
+.about h1 {
+  font-size: 23vw;
+}
+
+.about p {
+  color: lightblue;
+  padding-top: 5vh;
+}

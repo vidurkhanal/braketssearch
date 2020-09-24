@@ -1,0 +1,61 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  background: black;
+}
+
+.home__header {
+  position: sticky;
+  top: 0;
+  padding: 23px 29px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__headerRight {
+  display: flex;
+  align-items: center;
+  min-width: 12vw;
+  justify-content: space-between;
+}
+
+.home__header a {
+  margin-right: 25px;
+  text-decoration: inherit;
+  color: rgb(196, 195, 195);
+  font-size: 15px;
+  transition: all 3s ease;
+}
+
+.home__header a:hover {
+  text-decoration: underline;
+  color: lightgray;
+}
+
+.home__headerRight .MuiSvgIcon-root {
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.appicon>.MuiSvgIcon-root {
+  color: #ffbd4a;
+}
+
+.avataricon>.MuiSvgIcon-root {
+  color: #5271ff;
+}
+
+.home__body>img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.home__body {
+  flex: 1;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
