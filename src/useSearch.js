@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import API_KEY from "./keys";
-const searchEngineID = "47ec8604b93b76f7f";
+const searchEngineID = "id";
 
 const useSearch = (term) => {
   const [data, setData] = useState(null);
